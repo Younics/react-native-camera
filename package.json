@@ -2,14 +2,14 @@
   "name": "react-native-camera",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lwansbrough/react-native-camera.git"
+    "url": "https://github.com/Younics/react-native-ultimate-camera.git"
   },
   "version": "0.12.0",
   "description": "A Camera component for React Native. Also reads barcodes.",
   "author": "Lochlan Wansbrough <lochie@live.com> (http://lwansbrough.com)",
   "nativePackage": true,
   "license": "MIT",
-  "homepage": "https://github.com/lwansbrough/react-native-camera",
+  "homepage": "https://github.com/Younics/react-native-ultimate-camera",
   "keywords": [
     "react-native",
     "react",
@@ -21,10 +21,5 @@
   ],
   "dependencies": {
     "prop-types": "^15.5.10"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/react-native-camera",
-    "logo": "https://opencollective.com/opencollective/logo.txt"
   }
 }
