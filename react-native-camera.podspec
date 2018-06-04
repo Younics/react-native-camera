@@ -10,13 +10,18 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.source         = { :git => 'https://github.com/lwansbrough/react-native-camera', :tag => s.version }
+  s.source         = { :git => 'https://github.com/Younics/react-native-camera', :tag => s.version }
 
   s.requires_arc   = true
-  s.platform       = :ios, '8.0'
+  s.platform       = :ios, '8.2'
+
+  s.subspec "RCT" do |ss|
+    ss.source_files = "ios/RCT/**/*.{h,m}"
+  end
+
+  s.default_subspecs = "RCT"
 
   s.preserve_paths = 'LICENSE', 'README.md', 'package.json', 'index.js'
-  s.source_files   = 'ios/*.{h,m}'
 
   s.dependency 'React'
 end
